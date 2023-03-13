@@ -74,14 +74,6 @@ let package = Package(
     .library(
       name: "FirebaseStorage",
       targets: ["FirebaseStorageTarget"]
-    ),
-    .library(
-      name: "Google-Mobile-Ads-SDK",
-      targets: ["Google-Mobile-Ads-SDKTarget"]
-    ),
-    .library(
-      name: "GoogleSignIn",
-      targets: ["GoogleSignInTarget"]
     )
   ],
   dependencies: [
